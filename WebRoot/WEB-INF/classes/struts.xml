@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+<constant name="struts.multipart.saveDir" value="D:\tomcat8\work\Catalina\localhost"></constant>
+	<package name="example" extends="struts-default">
+	<global-results>
+		<result name="success">index.jsp</result>
+		<result name="error">error.jsp</result>
+		<result name="tips">tips.jsp</result>
+		<result name="show">showproduct.jsp</result>
+		<result name="onsell">onsell.jsp</result>
+	</global-results>
+		<action name="demo" class="com.maker.actions.LoginAction">
+		</action>
+		<action name="out" class="com.maker.actions.LogoutAction">
+		</action>
+		<action name="up" class="com.maker.actions.UplevelAction">
+		</action>
+		<action name="reg" class="com.maker.actions.RegisterAction">
+		</action>
+		<action name="upfile" class="com.maker.actions.FileUploadAction">
+		</action>
+		<action name="demo1" class="com.maker.actions.PageAction">
+		</action>
+		<action name="demo2" class="com.maker.actions.CartAction">	
+		</action>
+		<action name="order1" class="com.maker.actions.OrderAction">
+		</action>
+		<action name="demo3" class="com.maker.actions.OnsellAction">
+		</action>
+		<action name="demo4" class="com.maker.actions.EditAction">
+		</action>
+		<action name="demo5" class="com.maker.actions.SearchAction">
+		</action>
+	</package>
+
+</struts>    

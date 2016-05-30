@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+	version="2.1">
+
+	<description>DATA 1.0 core library</description>
+	<display-name>DATA core</display-name>
+	<tlib-version>1.0</tlib-version>
+	<short-name>c</short-name>
+	<uri>http://com.maker.tags/jsp/core</uri>
+
+	<tag>
+		<description>
+        获得页面要显示的数据
+    </description>
+		<name>getData</name>
+		<tag-class>com.maker.tags.DataTag</tag-class>
+		<body-content>empty</body-content>
+	</tag>
+
+</taglib>
